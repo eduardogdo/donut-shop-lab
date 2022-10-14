@@ -1,0 +1,28 @@
+.Header .cart-section {
+  font-size: 36px;
+  align-self: center;
+  position: relative;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header .badge {
+  position: absolute;
+  border: 5px solid cornflowerblue;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  color: white;
+}

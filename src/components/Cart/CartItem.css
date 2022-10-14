@@ -1,0 +1,26 @@
+.CartItem {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  gap: 15px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.CartItem button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  align-items: flex-end;
+  cursor: pointer;
+  color: red;
+  margin-left: auto;
+}
+
+.CartItem .mt-0 {
+  margin-top: 0 !important;
+}
+.CartItem .mb-0 {
+  margin-bottom: 0 !important;
+}
