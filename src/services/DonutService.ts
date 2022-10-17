@@ -12,7 +12,11 @@ export const getDonuts = (): Promise<DonutListResponse> => {
 
 export const getDonutDetail = (id: string): Promise<DonutResponse> => {
   return axios
-    .get(`https://grandcircusco.github.io/demo-apis/donuts/${id}.json`)
+    .get(
+      `https://grandcircusco.github.io/demo-apis/donuts/${encodeURIComponent(
+        id
+      )}.json`
+    )
     .then((response) => {
       return response.data;
     });
